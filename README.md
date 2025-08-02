@@ -19,7 +19,7 @@ El propósito principal es **identificar los factores clave asociados a la cance
 ### Etapas realizadas:
 - **Limpieza de datos**: eliminación de columnas no predictivas como `customerID`.
 - **Codificación One-Hot** para variables categóricas.
-- **Balanceo de clases** con **SMOTE** debido a un desbalance de ~73% clientes activos vs ~27% cancelaciones.
+- **Balanceo de clases** con **SMOTE** debido a un desbalance de 73% clientes activos vs 27% cancelaciones.
 - **División del dataset** en 80% entrenamiento y 20% prueba con `train_test_split()`.
 
 ---
